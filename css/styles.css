@@ -1,0 +1,35 @@
+body {
+    background-color: powderblue;
+    margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content:center;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 15%;
+  float: left;
+}
+
+a:hover {
+  background-color: #555;
+  color: white;
+}
+
+a {
+   transition: background 1000ms ease;
+}
+
+h1 {
+  margin: auto;
+}
+
+main {
+    width: 85%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float: right;
+    box-sizing: content-box;
+}
